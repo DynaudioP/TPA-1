@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+#logo {
+    display: flex;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+#gam{
+    width: 120px;
+}
+
+
+
+#navigasi {
+    
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+#navigasi li {
+    padding: 0px 30px 0px 50px;
+}
+
+#navigasi li a {
+    color: black;
+}
+
+#navigasi li a:hover{
+    color: #86A8E7;
+
+}
+
+main {
+    background-color: #f9faff;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+main h2{
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+section{
+    background-color: #f9faff;
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+    
+}
+
+#con1{
+    line-height: 23px;
+    height: 100px;
+    width: 30%;
+    text-align: justify;
+}
+
+#con1 span{
+    font-weight: 600;
+}
+
+#con2 {
+    height: auto;
+    max-width: 30%;
+}
+
+#gambar{
+    max-width: 90%;
+    position: relative;
+    bottom: 100px;
+}
+
+
+#skill{
+    background-color: #f9faff;
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px 40px 0;
+    font-size: 18px;
+    
+}
+
+#skill h2{
+    font-weight: 650;
+}
+
+#sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+.scon {
+    height: 260px;
+    width: 335px;
+    padding: 20px 35px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;    
+    border-image: linear-gradient(to right top, #86a8e7, #61b8f1, #35c7f1, #17d4e7, #3edfd4) 1;
+    
+
+}
+
+
+.stul{
+    text-align: center;
+}
+
+.scon i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 20px 0px;
+    color:#61b8f1
+
+}
+
+.scon h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+#sec2 {
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+
+
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 155px;
+    background-color: #61b8f1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#kontak ul{
+    display: flex;
+    padding: 16px;
+}
+
+#kontak ul li{
+    padding: 0 15px 0px 15px;
+
+}
+
+#kontak ul li i{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#kontak p{
+    padding: 10px;
+    color: #ffffff;
+}
+
+#kontak span{
+    font-weight: 600;
+}
+
+
+
+
+
+

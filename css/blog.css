@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+#logo {
+    display: flex;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+#gam{
+    width: 120px;
+}
+
+
+
+#navigasi {
+    
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    padding: 0px 50px 0px 50px;
+}
+
+#navigasi li {
+    padding: 0px 30px 0px 50px;
+}
+
+#navigasi li a {
+    color: black;
+}
+
+#navigasi li a:hover{
+    color: #86A8E7;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f9faff;
+}
+
+#post{
+    background-color: #ffffff;
+    width: 60%;
+    margin-right: 150px;
+    margin-top: 10px;
+    padding: 15px 15px 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.10);
+}
+
+#post h2{
+    line-height: 100px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+#post p{
+    line-height: 25px;
+    letter-spacing: 0,5px;
+    font-weight: 400;
+    
+}
+
+#selengkapnya{
+    margin-bottom: 15px;
+    border: none;
+    padding: 10px 18px 10px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-image: linear-gradient(to right top, #86a8e7, #61b8f1, #35c7f1, #17d4e7, #3edfd4);
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+    transition: transform 0.4s;
+}
+#selengkapnya a{
+    color: #ffffff;
+}
+
+#selengkapnya:hover{
+    box-shadow: 0 0 5px rgba(33,33,33,.2); 
+    transform: scale(1.05);
+}
+
+section {
+    display: flex;
+    height: 80px;
+    background-color: #f9faff;
+}
+
+
+
+footer{
+    
+    width: 100%;
+    height: 155px;
+    background-color: #61b8f1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+#kontak ul{
+    display: flex;
+    padding: 16px;
+}
+
+#kontak ul li{
+    padding: 0 15px 0px 15px;
+
+}
+
+#kontak ul li i{
+    font-size: 28px;
+    color: #ffffff;
+}
+
+#kontak p{
+    padding: 10px;
+    color: #ffffff;
+}
+
+#kontak span{
+    font-weight: 600;
+}
+
